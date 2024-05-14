@@ -24,3 +24,5 @@ jobs:
 
       - name: Run Dockerfile
         run: docker run --privileged --rm -v $(pwd):/mnt alteriso5
+
+      # TODO: アーティファクトをアップロードする機能の実装
