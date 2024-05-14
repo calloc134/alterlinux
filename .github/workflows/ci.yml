@@ -23,4 +23,4 @@ jobs:
         run: docker build -t alteriso5 .
 
       - name: Run Dockerfile
-        run: docker run --rm -v $(pwd):/mnt alteriso5
+        run: docker run --rm -v $(pwd):/mnt alteriso5 --privileged
